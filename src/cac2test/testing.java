@@ -45,6 +45,9 @@ public class testing extends JFrame {
 	private JTextField textField_6;
 	private JTextField textField_7;
 	private JTextField textField_8;
+	private JTextField textField_9;
+	private JTextField textField_10;
+	private JTextField textField_11;
 
 	/**
 	 * Launch the application.
@@ -71,7 +74,7 @@ public class testing extends JFrame {
 		setBackground(new Color(176, 196, 222));
 		setTitle("SportsOnline!");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1121, 828);
+		setSize(1645,1078);
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(176, 196, 222));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -85,7 +88,7 @@ public class testing extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JPanel panel = new JPanel();
-		panel.setBackground(new Color(255, 128, 128));
+		panel.setBackground(new Color(176, 196, 222));
 		panel.setBounds(10, 41, 1087, 239);
 		contentPane.add(panel);
 		panel.setLayout(new GridLayout(0, 3, 0, 0));
@@ -100,7 +103,7 @@ public class testing extends JFrame {
 		lblNewLabel_1.setBounds(10, 10, 110, 40);
 		panel_3.add(lblNewLabel_1);
 		
-		JLabel lblNewLabel_2 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2 = new JLabel("5 Rs");
 		lblNewLabel_2.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
 		lblNewLabel_2.setBounds(308, 11, 44, 40);
 		panel_3.add(lblNewLabel_2);
@@ -135,9 +138,9 @@ public class testing extends JFrame {
 		lblNewLabel_1_1.setBounds(10, 10, 110, 40);
 		panel_3_1.add(lblNewLabel_1_1);
 		
-		JLabel lblNewLabel_2_1 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_1 = new JLabel("12 Rs");
 		lblNewLabel_2_1.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
-		lblNewLabel_2_1.setBounds(308, 10, 44, 40);
+		lblNewLabel_2_1.setBounds(291, 10, 61, 40);
 		panel_3_1.add(lblNewLabel_2_1);
 		
 		JButton btnNewButton_1_1 = new JButton("Add to cart");
@@ -196,7 +199,7 @@ public class testing extends JFrame {
 		panel_3_2.add(lblNewLabel_4_2);
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBackground(new Color(255, 128, 128));
+		panel_1.setBackground(new Color(176, 196, 222));
 		panel_1.setBounds(10, 290, 1087, 239);
 		contentPane.add(panel_1);
 		panel_1.setLayout(new GridLayout(0, 3, 0, 0));
@@ -211,9 +214,9 @@ public class testing extends JFrame {
 		lblNewLabel_1_3.setBounds(10, 10, 152, 40);
 		panel_3_3.add(lblNewLabel_1_3);
 		
-		JLabel lblNewLabel_2_5 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_5 = new JLabel("20 Rs");
 		lblNewLabel_2_5.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
-		lblNewLabel_2_5.setBounds(308, 10, 44, 40);
+		lblNewLabel_2_5.setBounds(287, 10, 65, 40);
 		panel_3_3.add(lblNewLabel_2_5);
 		
 		JButton btnNewButton_1_5 = new JButton("Add to cart");
@@ -246,9 +249,9 @@ public class testing extends JFrame {
 		lblNewLabel_1_6.setBounds(10, 10, 140, 40);
 		panel_3_1_1.add(lblNewLabel_1_6);
 		
-		JLabel lblNewLabel_2_4 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_4 = new JLabel("18 Rs");
 		lblNewLabel_2_4.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
-		lblNewLabel_2_4.setBounds(308, 10, 44, 40);
+		lblNewLabel_2_4.setBounds(289, 10, 63, 40);
 		panel_3_1_1.add(lblNewLabel_2_4);
 		
 		JButton btnNewButton_1_4 = new JButton("Add to cart");
@@ -281,9 +284,9 @@ public class testing extends JFrame {
 		lblNewLabel_1_4.setBounds(10, 10, 147, 40);
 		panel_3_2_1.add(lblNewLabel_1_4);
 		
-		JLabel lblNewLabel_2_3 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_3 = new JLabel("10 Rs");
 		lblNewLabel_2_3.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
-		lblNewLabel_2_3.setBounds(308, 10, 44, 40);
+		lblNewLabel_2_3.setBounds(297, 10, 55, 40);
 		panel_3_2_1.add(lblNewLabel_2_3);
 		
 		JButton btnNewButton_1_3 = new JButton("Add to cart");
@@ -307,7 +310,7 @@ public class testing extends JFrame {
 		panel_3_2_1.add(lblNewLabel_4_3);
 		
 		JPanel panel_2 = new JPanel();
-		panel_2.setBackground(new Color(255, 128, 128));
+		panel_2.setBackground(new Color(176, 196, 222));
 		panel_2.setBounds(10, 539, 1087, 238);
 		contentPane.add(panel_2);
 		panel_2.setLayout(new GridLayout(0, 3, 0, 0));
@@ -322,7 +325,7 @@ public class testing extends JFrame {
 		lblNewLabel_1_7.setBounds(10, 10, 110, 40);
 		panel_3_4.add(lblNewLabel_1_7);
 		
-		JLabel lblNewLabel_2_6 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_6 = new JLabel("5 Rs");
 		lblNewLabel_2_6.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
 		lblNewLabel_2_6.setBounds(308, 10, 44, 40);
 		panel_3_4.add(lblNewLabel_2_6);
@@ -357,7 +360,7 @@ public class testing extends JFrame {
 		lblNewLabel_1_5.setBounds(10, 10, 143, 40);
 		panel_3_1_2.add(lblNewLabel_1_5);
 		
-		JLabel lblNewLabel_2_7 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_7 = new JLabel("8 Rs");
 		lblNewLabel_2_7.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
 		lblNewLabel_2_7.setBounds(308, 10, 44, 40);
 		panel_3_1_2.add(lblNewLabel_2_7);
@@ -392,9 +395,9 @@ public class testing extends JFrame {
 		lblNewLabel_1_8.setBounds(10, 10, 110, 40);
 		panel_3_2_2.add(lblNewLabel_1_8);
 		
-		JLabel lblNewLabel_2_8 = new JLabel("3 Rs");
+		JLabel lblNewLabel_2_8 = new JLabel("15 Rs");
 		lblNewLabel_2_8.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
-		lblNewLabel_2_8.setBounds(308, 10, 44, 40);
+		lblNewLabel_2_8.setBounds(297, 10, 55, 40);
 		panel_3_2_2.add(lblNewLabel_2_8);
 		
 		JButton btnNewButton_1_8 = new JButton("Add to cart");
@@ -427,7 +430,115 @@ public class testing extends JFrame {
 		btnNewButton.setForeground(new Color(128, 0, 64));
 		btnNewButton.setBackground(UIManager.getColor("Button.focus"));
 		btnNewButton.setFont(new Font("Stencil", Font.PLAIN, 16));
-		btnNewButton.setBounds(939, 10, 158, 25);
+		btnNewButton.setBounds(1300, 12, 158, 25);
 		contentPane.add(btnNewButton);
+		
+		JPanel panel_3_1_3 = new JPanel();
+		panel_3_1_3.setLayout(null);
+		panel_3_1_3.setBackground(new Color(119, 136, 153));
+		panel_3_1_3.setBounds(1096, 41, 362, 239);
+		contentPane.add(panel_3_1_3);
+		
+		JLabel lblNewLabel_1_1_1 = new JLabel("Shuttle Cock");
+		lblNewLabel_1_1_1.setFont(new Font("Poor Richard", Font.PLAIN, 24));
+		lblNewLabel_1_1_1.setBounds(10, 10, 140, 40);
+		panel_3_1_3.add(lblNewLabel_1_1_1);
+		
+		JLabel lblNewLabel_2_1_1 = new JLabel("3 Rs");
+		lblNewLabel_2_1_1.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
+		lblNewLabel_2_1_1.setBounds(308, 10, 44, 40);
+		panel_3_1_3.add(lblNewLabel_2_1_1);
+		
+		JButton btnNewButton_1_1_1 = new JButton("Add to cart");
+		btnNewButton_1_1_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		btnNewButton_1_1_1.setBounds(242, 215, 110, 21);
+		panel_3_1_3.add(btnNewButton_1_1_1);
+		
+		JLabel lblNewLabel_3_5_1 = new JLabel("Number:");
+		lblNewLabel_3_5_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblNewLabel_3_5_1.setBounds(10, 215, 55, 21);
+		panel_3_1_3.add(lblNewLabel_3_5_1);
+		
+		textField_9 = new JTextField();
+		textField_9.setColumns(10);
+		textField_9.setBounds(75, 218, 96, 19);
+		panel_3_1_3.add(textField_9);
+		
+		JLabel lblNewLabel_4_1_1 = new JLabel("New label");
+		lblNewLabel_4_1_1.setIcon(new ImageIcon(testing.class.getResource("/images/Shuttlecock.jpg")));
+		lblNewLabel_4_1_1.setBounds(118, 60, 148, 147);
+		panel_3_1_3.add(lblNewLabel_4_1_1);
+		
+		JPanel panel_3_1_4 = new JPanel();
+		panel_3_1_4.setLayout(null);
+		panel_3_1_4.setBackground(new Color(119, 136, 153));
+		panel_3_1_4.setBounds(1096, 539, 362, 239);
+		contentPane.add(panel_3_1_4);
+		
+		JLabel lblNewLabel_1_1_2 = new JLabel("Squash Raquet");
+		lblNewLabel_1_1_2.setFont(new Font("Poor Richard", Font.PLAIN, 24));
+		lblNewLabel_1_1_2.setBounds(10, 10, 173, 40);
+		panel_3_1_4.add(lblNewLabel_1_1_2);
+		
+		JLabel lblNewLabel_2_1_2 = new JLabel("13 Rs");
+		lblNewLabel_2_1_2.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
+		lblNewLabel_2_1_2.setBounds(297, 15, 55, 40);
+		panel_3_1_4.add(lblNewLabel_2_1_2);
+		
+		JButton btnNewButton_1_1_2 = new JButton("Add to cart");
+		btnNewButton_1_1_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		btnNewButton_1_1_2.setBounds(242, 215, 110, 21);
+		panel_3_1_4.add(btnNewButton_1_1_2);
+		
+		JLabel lblNewLabel_3_5_2 = new JLabel("Number:");
+		lblNewLabel_3_5_2.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblNewLabel_3_5_2.setBounds(10, 215, 55, 21);
+		panel_3_1_4.add(lblNewLabel_3_5_2);
+		
+		textField_10 = new JTextField();
+		textField_10.setColumns(10);
+		textField_10.setBounds(75, 218, 96, 19);
+		panel_3_1_4.add(textField_10);
+		
+		JLabel lblNewLabel_4_1_2 = new JLabel("New label");
+		lblNewLabel_4_1_2.setIcon(new ImageIcon(testing.class.getResource("/images/squash.jpg")));
+		lblNewLabel_4_1_2.setBounds(118, 60, 148, 147);
+		panel_3_1_4.add(lblNewLabel_4_1_2);
+		
+		JPanel panel_3_2_2_1 = new JPanel();
+		panel_3_2_2_1.setLayout(null);
+		panel_3_2_2_1.setBackground(new Color(102, 102, 102));
+		panel_3_2_2_1.setBounds(1096, 291, 362, 238);
+		contentPane.add(panel_3_2_2_1);
+		
+		JLabel lblNewLabel_1_8_1 = new JLabel("Badminton Raquet");
+		lblNewLabel_1_8_1.setFont(new Font("Poor Richard", Font.PLAIN, 24));
+		lblNewLabel_1_8_1.setBounds(10, 10, 183, 40);
+		panel_3_2_2_1.add(lblNewLabel_1_8_1);
+		
+		JLabel lblNewLabel_2_8_1 = new JLabel("16 Rs");
+		lblNewLabel_2_8_1.setFont(new Font("Perpetua Titling MT", Font.PLAIN, 20));
+		lblNewLabel_2_8_1.setBounds(297, 10, 55, 40);
+		panel_3_2_2_1.add(lblNewLabel_2_8_1);
+		
+		JButton btnNewButton_1_8_1 = new JButton("Add to cart");
+		btnNewButton_1_8_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		btnNewButton_1_8_1.setBounds(242, 215, 110, 21);
+		panel_3_2_2_1.add(btnNewButton_1_8_1);
+		
+		JLabel lblNewLabel_3_2_1 = new JLabel("Number:");
+		lblNewLabel_3_2_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblNewLabel_3_2_1.setBounds(10, 215, 55, 21);
+		panel_3_2_2_1.add(lblNewLabel_3_2_1);
+		
+		textField_11 = new JTextField();
+		textField_11.setColumns(10);
+		textField_11.setBounds(75, 218, 96, 19);
+		panel_3_2_2_1.add(textField_11);
+		
+		JLabel lblNewLabel_4_8_1 = new JLabel("New label");
+		lblNewLabel_4_8_1.setIcon(new ImageIcon(testing.class.getResource("/images/badminton.jpg")));
+		lblNewLabel_4_8_1.setBounds(125, 58, 148, 147);
+		panel_3_2_2_1.add(lblNewLabel_4_8_1);
 	}
 }

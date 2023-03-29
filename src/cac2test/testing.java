@@ -1,4 +1,5 @@
 package cac2test;
+import cac2test.cart;
 
 import java.awt.EventQueue;
 
@@ -28,6 +29,9 @@ import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import java.awt.GridLayout;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.UIManager;
 
 public class testing extends JFrame {
 
@@ -64,12 +68,12 @@ public class testing extends JFrame {
 	 * @throws IOException 
 	 */
 	public testing() throws IOException {
-		setBackground(new Color(255, 255, 0));
+		setBackground(new Color(176, 196, 222));
 		setTitle("SportsOnline!");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1121, 828);
 		contentPane = new JPanel();
-		contentPane.setBackground(new Color(255, 255, 0));
+		contentPane.setBackground(new Color(176, 196, 222));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
@@ -87,7 +91,7 @@ public class testing extends JFrame {
 		panel.setLayout(new GridLayout(0, 3, 0, 0));
 		
 		JPanel panel_3 = new JPanel();
-		panel_3.setBackground(new Color(255, 128, 128));
+		panel_3.setBackground(new Color(102, 102, 102));
 		panel.add(panel_3);
 		panel_3.setLayout(null);
 		
@@ -122,7 +126,7 @@ public class testing extends JFrame {
 		panel_3.add(lblNewLabel_4);
 		
 		JPanel panel_3_1 = new JPanel();
-		panel_3_1.setBackground(new Color(128, 255, 255));
+		panel_3_1.setBackground(new Color(119, 136, 153));
 		panel.add(panel_3_1);
 		panel_3_1.setLayout(null);
 		
@@ -157,7 +161,7 @@ public class testing extends JFrame {
 		panel_3_1.add(lblNewLabel_4_1);
 		
 		JPanel panel_3_2 = new JPanel();
-		panel_3_2.setBackground(new Color(255, 128, 128));
+		panel_3_2.setBackground(new Color(102, 102, 102));
 		panel.add(panel_3_2);
 		panel_3_2.setLayout(null);
 		
@@ -198,7 +202,7 @@ public class testing extends JFrame {
 		panel_1.setLayout(new GridLayout(0, 3, 0, 0));
 		
 		JPanel panel_3_3 = new JPanel();
-		panel_3_3.setBackground(new Color(128, 255, 255));
+		panel_3_3.setBackground(new Color(119, 136, 153));
 		panel_1.add(panel_3_3);
 		panel_3_3.setLayout(null);
 		
@@ -233,7 +237,7 @@ public class testing extends JFrame {
 		panel_3_3.add(lblNewLabel_4_5);
 		
 		JPanel panel_3_1_1 = new JPanel();
-		panel_3_1_1.setBackground(new Color(255, 128, 128));
+		panel_3_1_1.setBackground(new Color(102, 102, 102));
 		panel_1.add(panel_3_1_1);
 		panel_3_1_1.setLayout(null);
 		
@@ -268,7 +272,7 @@ public class testing extends JFrame {
 		panel_3_1_1.add(lblNewLabel_4_4);
 		
 		JPanel panel_3_2_1 = new JPanel();
-		panel_3_2_1.setBackground(new Color(128, 255, 255));
+		panel_3_2_1.setBackground(new Color(119, 136, 153));
 		panel_1.add(panel_3_2_1);
 		panel_3_2_1.setLayout(null);
 		
@@ -309,7 +313,7 @@ public class testing extends JFrame {
 		panel_2.setLayout(new GridLayout(0, 3, 0, 0));
 		
 		JPanel panel_3_4 = new JPanel();
-		panel_3_4.setBackground(new Color(255, 128, 128));
+		panel_3_4.setBackground(new Color(102, 102, 102));
 		panel_2.add(panel_3_4);
 		panel_3_4.setLayout(null);
 		
@@ -344,7 +348,7 @@ public class testing extends JFrame {
 		panel_3_4.add(lblNewLabel_4_6);
 		
 		JPanel panel_3_1_2 = new JPanel();
-		panel_3_1_2.setBackground(new Color(128, 255, 255));
+		panel_3_1_2.setBackground(new Color(119, 136, 153));
 		panel_2.add(panel_3_1_2);
 		panel_3_1_2.setLayout(null);
 		
@@ -379,7 +383,7 @@ public class testing extends JFrame {
 		panel_3_1_2.add(lblNewLabel_4_7);
 		
 		JPanel panel_3_2_2 = new JPanel();
-		panel_3_2_2.setBackground(new Color(255, 128, 128));
+		panel_3_2_2.setBackground(new Color(102, 102, 102));
 		panel_2.add(panel_3_2_2);
 		panel_3_2_2.setLayout(null);
 		
@@ -414,8 +418,14 @@ public class testing extends JFrame {
 		panel_3_2_2.add(lblNewLabel_4_8);
 		
 		JButton btnNewButton = new JButton("View Cart");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				cart c = new cart();
+				c.setVisible(true);
+			}
+		});
 		btnNewButton.setForeground(new Color(128, 0, 64));
-		btnNewButton.setBackground(new Color(0, 255, 0));
+		btnNewButton.setBackground(UIManager.getColor("Button.focus"));
 		btnNewButton.setFont(new Font("Stencil", Font.PLAIN, 16));
 		btnNewButton.setBounds(939, 10, 158, 25);
 		contentPane.add(btnNewButton);
